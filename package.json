@@ -65,6 +65,7 @@
   },
   "package-json-lint": {
     "extends": "@cerner/package-json-lint-config-terra",
+    "projectType": "dev-tool",
     "rules": {
       "require-no-terra-base-peer-dependency-versions": "error",
       "require-theme-context-versions": "off"
